@@ -35,5 +35,3 @@ $n = 10; // Cambiar este valor para obtener más o menos términos
 // - ', ' es lo que ponemos entre cada elemento (una coma y un espacio)
 // - `implode(', ', $array)` combina todos los elementos del arreglo en una cadena separada por la coma
 echo "Serie de Fibonacci de $n términos: " . implode(', ', generarFibonacci($n)) . "\n";
-
-?>
